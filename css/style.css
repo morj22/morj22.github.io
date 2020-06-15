@@ -1,0 +1,306 @@
+
+
+.cart{
+	font-family: roboto;
+	width: 250px;
+	height: 500px;
+	margin: 30px;
+	float: left;
+	text-align: center;
+	padding: 20px;
+}
+
+.cart .name{
+	font-family: roboto;
+	font-size: 25px;
+	text-transform: lowercase;
+	margin-bottom: 30px;
+}
+
+
+
+.cart .add-to-cart {
+	font-family: roboto;
+	font-size: 1.3rem;
+	background: #676b52;
+	color: white;
+	padding: 20px;
+	border: none;
+	cursor: pointer;
+}
+
+
+
+
+
+.cart .add-to-cart:active{
+
+	background: cadetblue;
+	
+}
+
+
+
+a{
+	text-decoration:none;
+
+}
+
+
+.menu{
+	font-family: roboto;
+	list-style:none;
+	margin:40px 0 5px;
+	padding:25px 0 5px;
+	text-align:center;
+	background: #f5f3f5;
+	color: #3f352d;
+}
+
+.menu li{
+	display:inline-block;}
+.menu li:after{
+	content:"|";
+	color: #f5f3f5;
+	display: inline-block;
+	vertical-align:top;
+}
+
+.menu li:last-child:after{content:none;}
+.menu a{
+
+	text-decoration: none;
+	font-family: roboto;
+	letter-spacing:2px;
+	position:relative;
+	padding-bottom:20px;
+	margin:0 34px 0 30px;
+	font-size:17px;
+	color:#3f352d;
+	display: inline-block;
+	transition: color .2s;
+}
+
+
+.menu a.current, .menu a:hover{color: #676b52;}
+.menu a:before,
+.menu a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #676b52;
+  transition: .8s;
+}
+
+
+.menu a:hover:before, .menu .current:before {left: 0;}
+.menu a:hover:after, .menu .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu {padding-top: 0;}
+.menu li {display: block;}
+.menu li:after {content: none;}
+.menu a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+
+p{
+	color: #3f352d; 
+}
+
+body{
+	background-color: #f5f3f5;
+}
+
+
+xmp{
+	font-size: 17px;
+}
+
+footer{
+	font-family: roboto;
+	background-color: #676b52; 
+	height: 250px;
+	width: 100%;
+	margin-top: 50px;
+}
+
+
+.main_pic{
+	margin-bottom: 50px;
+}
+.footer1{
+	font-family: roboto;
+	height: 170px;
+	width: 300px;
+	list-style:none;
+	text-decoration: none;
+	color: #f5f3f5;
+	margin-left: 150px;
+	display: inline-block;
+}
+.footer1 p{
+	font-family: roboto;
+	list-style:none;
+	text-decoration: none;
+	color: #f5f3f5;
+	margin-left: 565px;
+}
+
+.footer2{
+	font-family: roboto;
+	height: 50px;
+	width: 300px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.pic1{
+	height: 200px;
+	width: 200px;
+	position:absolute;
+	right:100px;
+	margin-top:30px; 
+}
+
+
+.catal_body{
+	font-family: roboto;
+	height: 420px;
+	width: 800px;
+	display: inline-block;
+	padding-left: 550px;
+}
+
+
+.goods-out{
+	font-family: roboto;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+
+.goods-out::after{
+
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+.cart_body{
+	font-family: roboto;
+	width: 100%;
+	height: 500px;
+	display: inline-block;
+	
+}
+
+.good{
+	font-family: roboto;
+	padding: 15px;
+}
+
+.cart_body img {
+
+	width: 105px;
+	height: 150px;
+}
+
+
+.name{
+	font-family: roboto;
+	display: inline-block;
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+.amount{
+	font-family: roboto;
+	float: left;
+	display: block;
+	font-size: 20px;
+	margin-top: 65px;
+	margin-bottom: 65px;
+	margin-right: 30px; 
+}
+
+.add-goods{
+	font-family: roboto;
+	margin: 15px;
+	width: 70px;
+	height: 30px;
+	color: #f5f3f5;
+	background:#676b52;
+		text-align: center;
+}
+
+.remove-goods{
+	font-family: roboto;
+	margin: 15px;
+	width: 70px;
+	height: 30px; 
+	color: #f5f3f5;
+	background:#676b52;
+	text-align: center;
+
+}
+
+.del-goods{
+	font-family: roboto;
+	margin: 15px;
+	width: 70px;
+	height: 30px; 
+	color: #f5f3f5;
+	background:#676b52;
+		text-align: center;
+}
+
+
+.email-field{
+	font-family: roboto;
+	margin-left: 50px;
+}
+
+.body1{
+	font-family: roboto;
+	width: 65%;
+}
+
+
+.email_fmnfs{
+	font-family: roboto;
+	text-align: center;
+}
+
+
+.aboutus img{
+	float: left;
+	display: inline-block;
+}
+
+.aboutus{
+	height: 960px;
+	text-align: right;
+	font-family: roboto;
+	font-size: 26px;
+	display: inline-block;
+
+}
+
+.body1{
+	margin-bottom: 200px;
+}
+
+.nav{
+	margin-left: 11%;
+}
+
+.shy{
+	font-family: roboto;
+}
